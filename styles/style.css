@@ -1,0 +1,75 @@
+html {
+    background-color: #f0f4f7;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #e1ff006a;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-indent: 2em; /* 调整缩进的大小 */
+}
+
+
+.intro-title {
+    text-align: center; /* 在 .intro-title 中居中标题 */
+    font-weight: bold; 
+    border-bottom: 2px solid  rgb(148, 75, 12); /* 设置下边框的颜色和厚度 */
+    padding-bottom: 10px; /* 让文本和边框之间有一定的间距 */
+    margin-top: 15px; /* 为标题和上面内容之间添加间距 */
+    margin-bottom: 20px; /* 为标题和下面的内容之间添加间距 */
+    color: #333333e1; /* 设定标题的颜色 */
+    font-size: 18px; /* 调整标题的字体大小 */
+}
+
+/* 使 .content-container 中的图片和文字并排显示 */
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; /* 替代 margin-right 用于图片与文字之间的间距 */
+}
+
+.content-container img {
+  max-width: 180px; 
+  height: auto; 
+}
+
+.content-container p {
+    margin: 0; /* 确保没有额外的边距 */
+    flex: 1;
+    line-height: 1.6; /* 调整为所需的行距 */
+}
+
+.text-container {
+  position: relative;
+  padding-bottom: 40px; /* 根据按钮的高度调整 */
+}
+
+.text-container button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.text-container button {
+    position: absolute;
+    bottom: 10px; /* 调整为合适的值 */
+    right: 10px;  /* 调整为合适的值 */
+    padding: 8px 16px; /* 按钮内边距 */
+    background-color: transparent; /* 背景透明 */
+    color: rgb(148, 75, 12); /* 字体颜色白色 */
+    font-weight: bold; /* 字体加粗 */
+    border: none; /* 去掉边框 */
+    cursor: pointer; /* 鼠标悬停时显示手型光标 */
+    font-size: 16px; /* 可选：设置字体大小 */
+    text-align: center; /* 可选：文本居中对齐 */
+  }
+  
